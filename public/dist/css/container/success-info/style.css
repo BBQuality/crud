@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+}
+.form__title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #633d3d;
+}
+.form_content {
+  display: grid;
+  gap: 16px;
+}
+.form_field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.form_label {
+  font-size: 14px;
+}
+.form_input {
+  border: 1px solid #633d3d;
+  padding: 8px;
+}
+.form_button {
+  border: 1px solid #633d3d;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
